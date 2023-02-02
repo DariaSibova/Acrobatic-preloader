@@ -47,3 +47,24 @@ main {
   animation-name: worm2;
   visibility: hidden;
 }
+
+/* Animtions */
+@keyframes worm1 {
+  from {
+    animation-timing-function: ease-in-out;
+    stroke-dashoffset: -87.96;
+  }
+  20% {
+    animation-timing-function: ease-in;
+    stroke-dashoffset: 0;
+  }
+  60% {
+    stroke-dashoffset: -791.68;
+    visibility: visible;
+  }
+  60.1%,
+  to {
+    stroke-dashoffset: -791.68;
+    visibility: hidden;
+  }
+}
