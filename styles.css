@@ -68,3 +68,25 @@ main {
     visibility: hidden;
   }
 }
+
+@keyframes worm2 {
+  from,
+  60% {
+    stroke-dashoffset: -87.96;
+    visibility: hidden;
+  }
+  60.1% {
+    animation-timing-function: cubic-bezier(0,0,0.5,0.75);
+    stroke-dashoffset: -87.96;
+    visibility: visible;
+  }
+  77% {
+    animation-timing-function: cubic-bezier(0.5,0.25,0.5,0.88);
+    stroke-dashoffset: -340;
+    visibility: visible;
+  }
+  to {
+    stroke-dashoffset: -669.92;
+    visibility: visible;
+  }
+}
