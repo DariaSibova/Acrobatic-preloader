@@ -33,3 +33,17 @@ main {
   stroke: hsla(var(--hue),10%,10%,0.15);
   transition: stroke 0.3s;
 }
+
+.ap__worm1,
+.ap__worm2 {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.ap__worm1 {
+  animation-name: worm1;
+}
+.ap__worm2 {
+  animation-name: worm2;
+  visibility: hidden;
+}
