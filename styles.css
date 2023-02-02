@@ -20,3 +20,16 @@ body {
   place-items: center;
   transition: background-color 0.3s;
 }
+
+main {
+  padding: 1.5em 0;
+}
+
+.ap {
+  width: 8em;
+  height: 16em;
+}
+.ap__ring {
+  stroke: hsla(var(--hue),10%,10%,0.15);
+  transition: stroke 0.3s;
+}
